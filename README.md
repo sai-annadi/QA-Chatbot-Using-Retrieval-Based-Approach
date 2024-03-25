@@ -27,8 +27,11 @@ RetrievalQA Chain: This component manages the interaction between the prompt tem
 
 ### Features:
 1.Interactive Chat Interface: Users can enter their questions in the chat interface and receive accurate answers based on the retrieval-based approach.
+
 2.Contextual Understanding: The chatbot uses a combination of document retrieval and response generation techniques to provide contextually relevant answers.
+
 3.Clear Chat History: Users have the option to clear the chat history using a dedicated button in the interface.
+
 4.Getting Started
 
 ### Prerequisites:
@@ -40,11 +43,11 @@ pip (package installer for Python)
 1.Clone the repository:
 
 ```bash
-git clone https://github.com/your_username/qa-chatbot.git
+git clone [https://github.com/your_username/QA-Chatbot-Using-Retrieval-Based-Approach.git]
 ```
 2.Navigate to the project directory:
 ```bash
-cd qa-chatbot
+cd QA-Chatbot-Using-Retrieval-Based-Approach
 ```
 ### Usage:
 1.set up a Python virtual environment and activate it:
