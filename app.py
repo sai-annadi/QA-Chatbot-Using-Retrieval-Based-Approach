@@ -35,7 +35,7 @@ def create_retrieval_qa_chain(llm, prompt, db):
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm,
         chain_type="stuff",
-        retriever=db.as_retriever(search_type="similarity",search_kwargs={"k": 3}),
+        retriever=db.as_retriever(search_type="similarity_score_threshold", search_kwargs={'score_threshold': 0.9}),
         return_source_documents=True,
         chain_type_kwargs={"prompt": prompt},
     )
