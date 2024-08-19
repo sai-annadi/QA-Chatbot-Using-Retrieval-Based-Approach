@@ -66,7 +66,7 @@ python data.py
 ```
 4.Start the Flask application (main bot) by running main.py:
 ```bash
-python main.py
+python filename.py
 ```
 5.Access the chatbot interface by opening a web browser and navigating to http://localhost:5000/. You can now interact with the chatbot by entering questions in the input field and receiving answers based on the retrieval-based approach.
 
